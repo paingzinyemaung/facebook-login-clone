@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1877f2;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+button[type="submit"] {
+    background: #1877f2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+    background: #166fe5;
+}
+
+.forgot {
+    display: block;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.create-account {
+    background: #42b72a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-account:hover {
+    background: #36a420;
+} */
+
+.container {
+    min-height: 100vh;
+    background: #f0f2f5;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-page {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook-page .text {
+    margin-bottom: 90px;
+}
+.facebook-page h1 {
+    font-size: 4rem;
+    color: #1877f2;
+    margin-bottom: 10px;   
+}
+
+.facebook-page p {
+    font-size: 1.5rem;
+    /* margin-bottom: 20px; */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+                0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+
+form input {
+    height: 50px;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+::placeholder {
+    color: #777;
+    font-size: 1.063rem;
+}
+.login-link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.login-link .login-btn {
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 6px;
+    outline: none;
+    background: #1877f2;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-link .login-btn:hover {
+    background: #0d65d9;
+}
+
+form a {
+    /* font-size: 1rem; */
+    text-decoration: none;
+}
+
+.login-link .forgot-password {
+    color: #1877f2;
+    font-size: 0.875rem;
+}
+
+.login-link .forgot-password:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.create-account a {
+    color: #fff;
+    background: #42b72a;
+    padding:  15px 20px;
+    border-radius: 6px;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.create-account a:hover {
+    background: #3ba626;
+}
+
+
