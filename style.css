@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* body {
@@ -120,15 +120,17 @@ hr {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
+
 .facebook-page .text {
     margin-bottom: 90px;
+    /* margin-right: 40px; */
 }
 .facebook-page h1 {
     font-size: 4rem;
     color: #1877f2;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
 
 .facebook-page p {
@@ -231,4 +233,26 @@ hr {
     background: #3ba626;
 }
 
+@media screen and (max-width: 900px) {
+    .facebook-page {
+        flex-direction: column;
+        text-align: center;
+    }
+    .facebook-page .text {
+        margin-bottom: 30px;
+        /* text-align: center; */
+    }
+}
 
+@media screen and (max-width: 460px) {
+    .facebook-page h1{
+        font-size: 3.5rem;
+    }
+    .facebook-page p {
+        font-size: 1.4rem;
+        /* text-align: center; */
+    }
+    form {
+        padding: 15px;
+    }
+}
